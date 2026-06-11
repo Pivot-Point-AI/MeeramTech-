@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     const resumeBuffer = Buffer.from(await resume.arrayBuffer());
 
     await transporter.sendMail({
-      from: `"RohaTech Careers" <${process.env.SMTP_USER}>`,
+      from: `"MeeramTech Careers" <${process.env.SMTP_USER}>`,
       to: process.env.CAREERS_TO_EMAIL || process.env.CONTACT_TO_EMAIL,
       replyTo: email,
       subject: `New job application${role ? ` — ${role}` : ""} from ${name}`,

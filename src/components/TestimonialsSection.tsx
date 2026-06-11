@@ -89,7 +89,7 @@ export default function TestimonialsSection() {
           What Our Clients Say
         </h1>
         <p className="text-white text-sm leading-relaxed max-w-[90%]">
-          Real results from real businesses — powered by RohaTech solutions.
+          Real results from real businesses — powered by MeeramTech solutions.
         </p>
 
         {/* Stats row */}

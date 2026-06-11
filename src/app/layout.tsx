@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://rohatech.com";
+const siteUrl = "https://meeramtech.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "RohaTech — Transforming Ideas Into Digital Reality",
-    template: "%s | RohaTech",
+    default: "MeeramTech — Transforming Ideas Into Digital Reality",
+    template: "%s | MeeramTech",
   },
   description:
-    "RohaTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
+    "MeeramTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
   keywords: [
     "IT solutions",
     "network infrastructure",
@@ -18,11 +18,11 @@ export const metadata: Metadata = {
     "cybersecurity",
     "digital transformation",
     "enterprise technology",
-    "RohaTech",
+    "MeeramTech",
   ],
-  authors: [{ name: "RohaTech", url: siteUrl }],
-  creator: "RohaTech",
-  publisher: "RohaTech",
+  authors: [{ name: "MeeramTech", url: siteUrl }],
+  creator: "MeeramTech",
+  publisher: "MeeramTech",
   robots: {
     index: true,
     follow: true,
@@ -38,26 +38,26 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    siteName: "RohaTech",
-    title: "RohaTech — Transforming Ideas Into Digital Reality",
+    siteName: "MeeramTech",
+    title: "MeeramTech — Transforming Ideas Into Digital Reality",
     description:
-      "RohaTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
+      "MeeramTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
     images: [
       {
         url: "/images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "RohaTech — Transforming Ideas Into Digital Reality",
+        alt: "MeeramTech — Transforming Ideas Into Digital Reality",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "RohaTech — Transforming Ideas Into Digital Reality",
+    title: "MeeramTech — Transforming Ideas Into Digital Reality",
     description:
-      "RohaTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
+      "MeeramTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
     images: ["/images/og-image.png"],
-    creator: "@rohatech",
+    creator: "@meeramtech",
   },
   alternates: {
     canonical: siteUrl,

@@ -42,10 +42,10 @@ const RomanIV = () => (
 );
 
 const industries = [
-  { title: "Fintech",    icon: <RomanI />,   desc: "We act as the legal employer on your behalf, managing all employment responsibilities so you can hire global talent without setting up local entities." },
-  { title: "Healthcare", icon: <RomanII />,  desc: "Accurate, on-time payroll processing with full tax handling, ensuring compliance across regions while removing administrative complexity." },
-  { title: "E-Commerce", icon: <RomanIII />, desc: "Locally compliant employment contracts and adherence to labor laws, reducing legal risk and ensuring smooth international hiring." },
-  { title: "Logistics",  icon: <RomanIV />,  desc: "End-to-end HR support, including benefits administration, employee management, and ongoing assistance for your remote workforce." },
+  { title: "Fintech",    icon: <RomanI />,   desc: "Secure, compliant digital banking and financial platforms built to handle sensitive transactions with speed, accuracy, and resilience." },
+  { title: "Healthcare", icon: <RomanII />,  desc: "Reliable digital health systems and infrastructure that keep patient data secure while improving care delivery and operational efficiency." },
+  { title: "E-Commerce", icon: <RomanIII />, desc: "Scalable platforms and integrations that power seamless online shopping experiences, from storefronts to backend logistics." },
+  { title: "Logistics",  icon: <RomanIV />,  desc: "End-to-end technology solutions that connect networks, automate operations, and give logistics providers real-time visibility." },
 ];
 
 export default function Industries() {
@@ -55,7 +55,7 @@ export default function Industries() {
     <section id="solutions" className="block md:hidden bg-[#F3F4F6] px-5 py-14">
       <p className="text-xs uppercase mb-2 tracking-wide" style={{ color: "#000000" }}>Industries</p>
       <h2 className="text-3xl font-normal mb-3" style={{ color: "#000000" }}>Innovation Across Industries</h2>
-      <p className="text-sm leading-relaxed mb-8" style={{ color: "#00000099" }}>RohaTech delivers enterprise-grade technology solutions tailored to the unique demands of every sector we serve.</p>
+      <p className="text-sm leading-relaxed mb-8" style={{ color: "#00000099" }}>MeeramTech delivers enterprise-grade technology solutions tailored to the unique demands of every sector we serve.</p>
       <div className="flex flex-col gap-4 mb-8">
         {industries.map(({ title, icon, desc }) => (
           <div key={title} className="bg-white rounded-2xl p-5 flex gap-4 items-start">
@@ -87,7 +87,7 @@ export default function Industries() {
 
       {/* Description */}
       <p className={`absolute text-black font-normal flex items-center ${styles.description}`}>
-        RohaTech delivers enterprise-grade technology solutions tailored to the
+        MeeramTech delivers enterprise-grade technology solutions tailored to the
         unique demands of every sector we serve.
       </p>
 

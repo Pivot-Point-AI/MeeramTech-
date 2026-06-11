@@ -6,18 +6,18 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join the RohaTech team. Explore current openings and discover why RohaTech is a great place to grow your career.",
-  alternates: { canonical: "https://rohatech.com/careers" },
+    "Join the MeeramTech team. Explore current openings and discover why MeeramTech is a great place to grow your career.",
+  alternates: { canonical: "https://meeramtech.com/careers" },
   openGraph: {
-    title: "Careers — RohaTech",
+    title: "Careers — MeeramTech",
     description:
-      "Join the RohaTech team. Explore current openings and discover why RohaTech is a great place to grow your career.",
-    url: "https://rohatech.com/careers",
+      "Join the MeeramTech team. Explore current openings and discover why MeeramTech is a great place to grow your career.",
+    url: "https://meeramtech.com/careers",
   },
   twitter: {
-    title: "Careers — RohaTech",
+    title: "Careers — MeeramTech",
     description:
-      "Join the RohaTech team. Explore current openings and discover why RohaTech is a great place to grow your career.",
+      "Join the MeeramTech team. Explore current openings and discover why MeeramTech is a great place to grow your career.",
   },
 };
 

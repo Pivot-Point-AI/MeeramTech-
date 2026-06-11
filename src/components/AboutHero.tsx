@@ -37,10 +37,10 @@ export default function AboutHero() {
             <span className={styles.mobileGreenSpan}>technology solutions.</span>
           </h1>
           <p className="text-white text-xs leading-relaxed max-w-[260px]">
-            RohaTech Recognized for Excellence in Digital Infrastructure Innovation
+            MeeramTech Recognized for Excellence in Digital Infrastructure Innovation
           </p>
           <Link
-            href="mailto:info@rohatech.com.pk"
+            href="mailto:info@meeramtech.com"
             className="self-start inline-flex items-center justify-center bg-[#78EB54] hover:bg-[#60d43e] transition-colors text-white font-medium text-sm px-7 py-3 rounded-full"
           >
             Email Us
@@ -51,7 +51,7 @@ export default function AboutHero() {
       {/* Video */}
       <div className="bg-[#F3F4F6] px-5 pt-8 pb-10">
         <div className={`relative w-full rounded-2xl overflow-hidden shadow-md ${styles.mobileVideoWrapper}`}>
-          <Image src="/images/abou.webp" alt="RohaTech showcase" fill sizes="100vw" className="object-cover" />
+          <Image src="/images/abou.webp" alt="MeeramTech showcase" fill sizes="100vw" className="object-cover" />
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg">
               <svg viewBox="0 0 60 60" width="36" height="36">
@@ -112,7 +112,7 @@ export default function AboutHero() {
       <div className={`absolute left-1/2 -translate-x-1/2 overflow-hidden ${styles.videoWrapper}`}>
         <Image
           src="/images/abou.webp"
-          alt="RohaTech showcase"
+          alt="MeeramTech showcase"
           fill
           sizes="30vw"
           className="object-cover"
@@ -129,7 +129,7 @@ export default function AboutHero() {
 
       {/* Subtext */}
       <p className={`absolute text-white font-medium text-center ${styles.subtext}`}>
-        RohaTech Recognized for Excellence in Digital Infrastructure Innovation
+        MeeramTech Recognized for Excellence in Digital Infrastructure Innovation
       </p>
 
       {/* "Our visions" label */}
@@ -147,7 +147,7 @@ export default function AboutHero() {
 
       {/* Email US button */}
       <Link
-        href="mailto:info@rohatech.com.pk"
+        href="mailto:info@meeramtech.com"
         className={`absolute flex items-center justify-center bg-[#78EB54] hover:bg-[#60d43e] transition-colors ${styles.emailBtn}`}
       >
         <span className={`text-white font-medium ${styles.emailBtnText}`}>

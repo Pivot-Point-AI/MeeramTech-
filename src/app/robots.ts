@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: [],
     },
-    sitemap: "https://rohatech.com/sitemap.xml",
+    sitemap: "https://meeramtech.com/sitemap.xml",
   };
 }

@@ -14,15 +14,15 @@ export const metadata: Metadata = {
     "cybersecurity",
     "digital transformation",
   ],
-  alternates: { canonical: "https://rohatech.com/services" },
+  alternates: { canonical: "https://meeramtech.com/services" },
   openGraph: {
-    title: "Services — RohaTech",
+    title: "Services — MeeramTech",
     description:
       "Delivering scalable digital solutions designed to empower businesses, optimize operations, and drive sustainable growth.",
-    url: "https://rohatech.com/services",
+    url: "https://meeramtech.com/services",
   },
   twitter: {
-    title: "Services — RohaTech",
+    title: "Services — MeeramTech",
     description:
       "Delivering scalable digital solutions designed to empower businesses, optimize operations, and drive sustainable growth.",
   },

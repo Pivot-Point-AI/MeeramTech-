@@ -5,8 +5,8 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Apply Now",
-  description: "Apply for a position at RohaTech.",
-  alternates: { canonical: "https://rohatech.com/careers/apply" },
+  description: "Apply for a position at MeeramTech.",
+  alternates: { canonical: "https://meeramtech.com/careers/apply" },
 };
 
 export default function CareerApplyPage() {

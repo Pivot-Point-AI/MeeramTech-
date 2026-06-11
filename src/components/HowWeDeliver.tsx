@@ -15,7 +15,7 @@ export default function HowWeDeliver() {
     {/* ── MOBILE ── */}
     <section className="block md:hidden bg-[#F3F4F6] px-5 py-14">
       <div className="bg-black rounded-2xl p-6 mb-6">
-        <h2 className="text-white text-2xl font-bold mb-5">How RohaTech Delivers</h2>
+        <h2 className="text-white text-2xl font-bold mb-5">How MeeramTech Delivers</h2>
         <Link href="/services" className="inline-flex items-center gap-2 bg-[#78EB54] hover:bg-[#60d43e] transition-colors text-white text-sm font-bold px-5 py-2.5 rounded-full">
           See More
           <svg viewBox="0 0 25 24" fill="none" className="w-4 h-4" aria-hidden="true">
@@ -41,7 +41,7 @@ export default function HowWeDeliver() {
     {/* ── DESKTOP ── */}
     <section className={`hidden md:block relative w-full overflow-hidden ${styles.desktopSection}`}>
 
-      {/* ── Hero card "How RohaTech Delivers" — 975×348 ── */}
+      {/* ── Hero card "How MeeramTech Delivers" — 975×348 ── */}
       <div className={`absolute bg-black ${styles.heroCard}`}>
 
         {/* Decorative arrow icon — 23×24px at left=38 top=38 */}
@@ -56,7 +56,7 @@ export default function HowWeDeliver() {
 
         {/* Heading — left=56 top=48 48px bold */}
         <h2 className={`absolute text-white font-bold flex items-center ${styles.heroHeading}`}>
-          How RohaTech Delivers
+          How MeeramTech Delivers
         </h2>
 
         {/* See More button — left=56 top=218 228×56 */}

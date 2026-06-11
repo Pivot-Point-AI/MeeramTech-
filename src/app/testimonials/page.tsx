@@ -6,18 +6,18 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Testimonials",
   description:
-    "See what our clients say about RohaTech's technology solutions. Real results, real businesses.",
-  alternates: { canonical: "https://rohatech.com/testimonials" },
+    "See what our clients say about MeeramTech's technology solutions. Real results, real businesses.",
+  alternates: { canonical: "https://meeramtech.com/testimonials" },
   openGraph: {
-    title: "Testimonials — RohaTech",
+    title: "Testimonials — MeeramTech",
     description:
-      "See what our clients say about RohaTech's technology solutions. Real results, real businesses.",
-    url: "https://rohatech.com/testimonials",
+      "See what our clients say about MeeramTech's technology solutions. Real results, real businesses.",
+    url: "https://meeramtech.com/testimonials",
   },
   twitter: {
-    title: "Testimonials — RohaTech",
+    title: "Testimonials — MeeramTech",
     description:
-      "See what our clients say about RohaTech's technology solutions. Real results, real businesses.",
+      "See what our clients say about MeeramTech's technology solutions. Real results, real businesses.",
   },
 };
 

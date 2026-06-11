@@ -6,25 +6,25 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Solutions",
   description:
-    "Explore RohaTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
+    "Explore MeeramTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
   keywords: [
     "fintech solutions",
     "healthcare IT",
     "e-commerce technology",
     "digital solutions",
-    "RohaTech",
+    "MeeramTech",
   ],
-  alternates: { canonical: "https://rohatech.com/solutions" },
+  alternates: { canonical: "https://meeramtech.com/solutions" },
   openGraph: {
-    title: "Solutions — RohaTech",
+    title: "Solutions — MeeramTech",
     description:
-      "Explore RohaTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
-    url: "https://rohatech.com/solutions",
+      "Explore MeeramTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
+    url: "https://meeramtech.com/solutions",
   },
   twitter: {
-    title: "Solutions — RohaTech",
+    title: "Solutions — MeeramTech",
     description:
-      "Explore RohaTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
+      "Explore MeeramTech's real-world digital solutions across fintech, healthcare, e-commerce and more.",
   },
 };
 

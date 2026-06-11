@@ -37,7 +37,7 @@ export default function Footer() {
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10">
         <p className="text-white font-medium text-base mb-1">Do you have any questions?<br />Drop us an email and we&apos;ll get right back to you</p>
-        <a href="mailto:info@rohatech.com.pk" className="text-white font-medium text-sm hover:text-[#78EB54] transition-colors">info@rohatech.com.pk</a>
+        <a href="mailto:info@meeramtech.com" className="text-white font-medium text-sm hover:text-[#78EB54] transition-colors">info@meeramtech.com</a>
         <div className="mt-8 flex flex-col gap-2">
           {serviceLinks.map(({ label, slug }) => (
             <a key={label} href={`/services#${slug}`} onClick={(e) => handleServiceClick(e, slug)} className="text-white text-sm hover:text-[#78EB54] transition-colors">{label}</a>
@@ -80,12 +80,12 @@ export default function Footer() {
         Do you have any questions?<br />Drop us an email and we&apos;ll get right back to you
       </p>
 
-      {/* "info@rohatech.com.pk" */}
+      {/* "info@meeramtech.com" */}
       <a
-        href="mailto:info@rohatech.com.pk"
+        href="mailto:info@meeramtech.com"
         className={`absolute text-white font-medium hover:text-[#78EB54] transition-colors ${styles.emailLink}`}
       >
-        info@rohatech.com.pk
+        info@meeramtech.com
       </a>
 
       {/* Service links — right/top/width are per-item, stay inline */}

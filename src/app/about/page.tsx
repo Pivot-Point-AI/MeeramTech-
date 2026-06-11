@@ -7,18 +7,18 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about RohaTech's mission, vision, and the team behind our enterprise technology solutions.",
-  alternates: { canonical: "https://rohatech.com/about" },
+    "Learn about MeeramTech's mission, vision, and the team behind our enterprise technology solutions.",
+  alternates: { canonical: "https://meeramtech.com/about" },
   openGraph: {
-    title: "About Us — RohaTech",
+    title: "About Us — MeeramTech",
     description:
-      "Learn about RohaTech's mission, vision, and the team behind our enterprise technology solutions.",
-    url: "https://rohatech.com/about",
+      "Learn about MeeramTech's mission, vision, and the team behind our enterprise technology solutions.",
+    url: "https://meeramtech.com/about",
   },
   twitter: {
-    title: "About Us — RohaTech",
+    title: "About Us — MeeramTech",
     description:
-      "Learn about RohaTech's mission, vision, and the team behind our enterprise technology solutions.",
+      "Learn about MeeramTech's mission, vision, and the team behind our enterprise technology solutions.",
   },
 };
 

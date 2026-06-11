@@ -43,7 +43,7 @@ export default function CareersSection() {
               Join Our Team
             </p>
             <h1 className="text-white font-normal text-[34px] leading-[1.15] mb-4 max-w-[280px] text-center" style={{ letterSpacing: "-0.025em" }}>
-              Build Your Future with <span style={{ color: "#78EB54" }}>RohaTech</span>
+              Build Your Future with <span style={{ color: "#78EB54" }}>MeeramTech</span>
             </h1>
             <p className="text-white text-sm leading-relaxed max-w-[260px] mb-5 text-center">
               Join a passionate team of innovators, developers, and problem-solvers creating
@@ -78,7 +78,7 @@ export default function CareersSection() {
 
         <h1 className={`absolute text-white font-normal text-center ${styles.heading}`}>
           Build Your Future with{" "}
-          <span className={styles.greenSpan}>RohaTech</span>
+          <span className={styles.greenSpan}>MeeramTech</span>
         </h1>
 
         <p className={`absolute text-white font-medium text-center ${styles.subtext}`}>
@@ -100,7 +100,7 @@ export default function CareersSection() {
       {/* ── Why work with us ── */}
       <section className="bg-white px-6 py-14 md:px-16 lg:px-24 md:py-20">
         <p className="text-[10px] md:text-xs uppercase tracking-[0.2em] text-black/40 mb-2">
-          Why RohaTech
+          Why MeeramTech
         </p>
         <h2
           className="font-bold text-2xl md:text-4xl mb-8 md:mb-10 text-black max-w-2xl"

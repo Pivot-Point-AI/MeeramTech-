@@ -7,18 +7,18 @@ import styles from "./AboutWhatWeDo.module.css";
 
 const faqs = [
   {
-    q: "Does Roha Tech have a global presence?",
+    q: "Does MeeramTech have a global presence?",
     a: "Our vision is built upon the foundation of our core values placing customers and employees at the heart of everything we do. We are committed to being reliable, dependable, disciplined, and diligent. We believe that team spirit and collaboration are the driving forces that can improve lives and shape a better future for generations to come.",
     qW: "71.060%",
   },
   {
-    q: "How is diversity in Roha Tech?",
-    a: "RohaTech embraces diversity across all levels of the organisation. We believe diverse teams build better technology and serve clients more effectively.",
+    q: "How is diversity in MeeramTech?",
+    a: "MeeramTech embraces diversity across all levels of the organisation. We believe diverse teams build better technology and serve clients more effectively.",
     qW: "52.038%",
   },
   {
-    q: "What is an environment like in Roha Tech?",
-    a: "RohaTech fosters a collaborative, innovative, and growth-oriented environment where every team member is empowered to deliver their best work.",
+    q: "What is an environment like in MeeramTech?",
+    a: "MeeramTech fosters a collaborative, innovative, and growth-oriented environment where every team member is empowered to deliver their best work.",
     qW: "72.690%",
   },
 ];
@@ -52,7 +52,7 @@ export default function AboutWhatWeDo() {
         <div className="absolute bottom-0 left-0 right-0 p-6 flex flex-col gap-3">
           <div className="w-7 h-[2px] bg-[#78EB54] rounded-full" />
           <h2 className="font-bold text-2xl leading-tight" style={{ color: "#ffffff", letterSpacing: "-0.02em" }}>Seamless &amp; Hassle-Free IT Support</h2>
-          <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>With 220+ skilled experts, RohaTech takes pride in exceeding client expectations 100+ solutions deployed globally since 2015.</p>
+          <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.65)" }}>With 220+ skilled experts, MeeramTech takes pride in exceeding client expectations 100+ solutions deployed globally since 2015.</p>
           <Link href="/contact" className="self-start inline-flex items-center justify-center bg-[#78EB54] hover:bg-[#60d43e] transition-colors text-white text-sm font-medium px-6 py-2.5 rounded-full">
             Contact Us
           </Link>
@@ -107,7 +107,7 @@ export default function AboutWhatWeDo() {
         </h2>
 
         <p className={`absolute text-black flex items-center ${styles.leftDesc}`}>
-          With a team of over 220+ skilled experts, RohaTech takes pride in exceeding client
+          With a team of over 220+ skilled experts, MeeramTech takes pride in exceeding client
           expectations. Since our inception in 2015, we have successfully developed and deployed
           over 100 solutions globally. Our footprint extends across Asia, Europe, and Australia,
           helping businesses thrive with tailored technology solutions across various sectors.

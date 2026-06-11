@@ -6,18 +6,18 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with RohaTech. Reach us via phone, email, or the contact form — we're here to help.",
-  alternates: { canonical: "https://rohatech.com/contact" },
+    "Get in touch with MeeramTech. Reach us via phone, email, or the contact form — we're here to help.",
+  alternates: { canonical: "https://meeramtech.com/contact" },
   openGraph: {
-    title: "Contact Us — RohaTech",
+    title: "Contact Us — MeeramTech",
     description:
-      "Get in touch with RohaTech. Reach us via phone, email, or the contact form — we're here to help.",
-    url: "https://rohatech.com/contact",
+      "Get in touch with MeeramTech. Reach us via phone, email, or the contact form — we're here to help.",
+    url: "https://meeramtech.com/contact",
   },
   twitter: {
-    title: "Contact Us — RohaTech",
+    title: "Contact Us — MeeramTech",
     description:
-      "Get in touch with RohaTech. Reach us via phone, email, or the contact form — we're here to help.",
+      "Get in touch with MeeramTech. Reach us via phone, email, or the contact form — we're here to help.",
   },
 };
 

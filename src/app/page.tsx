@@ -13,23 +13,23 @@ import SolutionsSection from "@/components/SolutionsSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://rohatech.com" },
-  openGraph: { url: "https://rohatech.com" },
+  alternates: { canonical: "https://meeramtech.com" },
+  openGraph: { url: "https://meeramtech.com" },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "RohaTech",
-  url: "https://rohatech.com",
-  logo: "https://rohatech.com/images/icon.png",
+  name: "MeeramTech",
+  url: "https://meeramtech.com",
+  logo: "https://meeramtech.com/images/icon.png",
   description:
-    "RohaTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
+    "MeeramTech delivers enterprise-grade technology solutions — network infrastructure, cloud modernization, digital solutions, and cybersecurity.",
   sameAs: [],
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer service",
-    url: "https://rohatech.com/contact",
+    url: "https://meeramtech.com/contact",
   },
 };
 

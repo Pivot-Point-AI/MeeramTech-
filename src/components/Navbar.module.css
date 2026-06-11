@@ -12,6 +12,7 @@
 
 .desktopNav {
   height: 4vw;
+  overflow: visible;
 }
 
 .logo {
@@ -20,7 +21,7 @@
   transform: translateY(-50%);
   display: flex;
   align-items: center;
-  height: 3vw;
+  height: 4.2vw;
 }
 
 .navList {

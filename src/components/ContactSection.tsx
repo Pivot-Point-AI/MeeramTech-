@@ -91,7 +91,7 @@ export default function ContactSection() {
               <p className="text-white text-sm font-medium">051-2745817</p>
             </div>
           </a>
-          <a href="mailto:info@rohatech.com.pk" className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
+          <a href="mailto:info@meeramtech.com" className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
             <div className="w-9 h-9 bg-[#78EB54] rounded-xl flex items-center justify-center flex-shrink-0">
               <svg width="16" height="16" viewBox="0 0 30 30" fill="none">
                 <rect x="2.5" y="5" width="25" height="20" rx="2" fill="white"/>
@@ -100,7 +100,7 @@ export default function ContactSection() {
             </div>
             <div>
               <p className="text-white/50 text-[10px] uppercase tracking-wide">Email</p>
-              <p className="text-white text-sm font-medium">info@rohatech.com.pk</p>
+              <p className="text-white text-sm font-medium">info@meeramtech.com</p>
             </div>
           </a>
           <div className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
@@ -163,7 +163,7 @@ export default function ContactSection() {
       {/* Map */}
       <div className="px-5 pb-10">
         <div className="rounded-2xl overflow-hidden h-56 border border-black/8">
-          <iframe title="RohaTech Location" width="100%" height="100%" className={styles.iframe}
+          <iframe title="MeeramTech Location" width="100%" height="100%" className={styles.iframe}
             loading="lazy" referrerPolicy="no-referrer-when-downgrade"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0!2d73.0698!3d33.6582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbef7c0000001%3A0x1!2sGulberg+Greens%2C+Islamabad!5e0!3m2!1sen!2s!4v1" />
         </div>
@@ -270,12 +270,12 @@ export default function ContactSection() {
           <span className={styles.infoText}>051-2745817</span>
         </a>
 
-        <a href="mailto:info@rohatech.com.pk" className={`absolute flex items-center gap-[0.781vw] ${styles.infoEmail}`}>
+        <a href="mailto:info@meeramtech.com" className={`absolute flex items-center gap-[0.781vw] ${styles.infoEmail}`}>
           <svg className={styles.infoIcon} viewBox="0 0 30 30" fill="none">
             <rect x="2.5" y="5" width="25" height="20" rx="2" fill="#000"/>
             <path d="M2.5 8l12.5 9L27.5 8" stroke="white" strokeWidth="2"/>
           </svg>
-          <span className={styles.infoText}>info@rohatech.com.pk</span>
+          <span className={styles.infoText}>info@meeramtech.com</span>
         </a>
 
         <div className={`absolute flex items-start gap-[0.781vw] ${styles.infoAddress}`}>
@@ -292,7 +292,7 @@ export default function ContactSection() {
       {/* Map card */}
       <div className={`absolute overflow-hidden ${styles.mapCard}`}>
         <iframe
-          title="RohaTech Location"
+          title="MeeramTech Location"
           width="100%"
           height="100%"
           className={styles.iframe}

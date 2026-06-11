@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: job.title,
     description: job.description,
-    alternates: { canonical: `https://rohatech.com/careers/${job.slug}` },
+    alternates: { canonical: `https://meeramtech.com/careers/${job.slug}` },
   };
 }
 

@@ -147,8 +147,8 @@ function CareerApplyFormInner({ role: roleProp, hideHeader }: { role?: string; h
             </div>
             <p className="text-white/70 font-medium text-xs mt-10">
               Questions? Email us at{" "}
-              <a href="mailto:info@rohatech.com.pk" className="text-[#78EB54] hover:underline">
-                info@rohatech.com.pk
+              <a href="mailto:info@meeramtech.com" className="text-[#78EB54] hover:underline">
+                info@meeramtech.com
               </a>
             </p>
           </div>

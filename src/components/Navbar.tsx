@@ -66,12 +66,11 @@ export default function Navbar({ theme = "dark" }: { theme?: "dark" | "light" })
         {/* Logo */}
         <Link href="/" className={`absolute ${styles.logo}`}>
           <img
-            src={isDark ? "/images/logowhite.png" : "/images/rohatech.png"}
-            alt="RohaTech"
+            src={isDark ? "/images/meeramtech.png" : "/images/meeramtech.png"}
+            alt="MeeramTech"
             width={160}
-            height={40}
-            className="object-contain"
-         
+            height={0}
+            className="object-contain h-full w-auto"
           />
         </Link>
 
@@ -190,8 +189,8 @@ export default function Navbar({ theme = "dark" }: { theme?: "dark" | "light" })
       <div className={`lg:hidden flex items-center justify-between px-6 h-14 ${isDark ? "bg-black/80 backdrop-blur-md" : "bg-white/90 backdrop-blur-md"}`}>
         <Link href="/" className="flex items-center">
           <Image
-            src={isDark ? "/images/logowhite.png" : "/images/rohatech.png"}
-            alt="RohaTech"
+            src={isDark ? "/images/meeramtech-dark.png" : "/images/meeramtech.png"}
+            alt="MeeramTech"
             width={120}
             height={32}
             className="object-contain"
