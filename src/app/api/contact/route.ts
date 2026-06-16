@@ -7,7 +7,7 @@ export async function POST(request: Request) {
     return Response.json({ error: "Name, email and message are required." }, { status: 400 });
   }
 
-  const transporter = nodemailer.createTransport({
+const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: Number(process.env.SMTP_PORT),
     secure: process.env.SMTP_SECURE === "true",
