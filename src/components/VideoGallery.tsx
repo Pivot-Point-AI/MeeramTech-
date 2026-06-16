@@ -5,7 +5,6 @@ const images = [
   "/images/gallery/gallery1.webp",
   "/images/gallery/gallery2.webp",
   "/images/gallery/gallery3.webp",
-  "/images/gallery/gallery4.webp",
 ];
 
 export default function VideoGallery() {

@@ -80,7 +80,7 @@ export default function ContactSection() {
 
         {/* Quick contact chips */}
         <div className="flex flex-col gap-3 mt-6">
-          <a href="tel:0512745817" className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
+          <a href="tel:+447417436858" className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
             <div className="w-9 h-9 bg-[#78EB54] rounded-xl flex items-center justify-center flex-shrink-0">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                 <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 4.5c0-.55.45-1 1-1H7.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.58.11.35.03.74-.24 1.01L6.6 10.8z" fill="white"/>
@@ -88,7 +88,7 @@ export default function ContactSection() {
             </div>
             <div>
               <p className="text-white/50 text-[10px] uppercase tracking-wide">Phone</p>
-              <p className="text-white text-sm font-medium">051-2745817</p>
+              <p className="text-white text-sm font-medium">+44 7417436858</p>
             </div>
           </a>
           <a href="mailto:info@meeramtech.com" className="flex items-center gap-3 bg-white/8 border border-white/10 rounded-2xl px-4 py-3">
@@ -111,7 +111,7 @@ export default function ContactSection() {
             </div>
             <div>
               <p className="text-white/50 text-[10px] uppercase tracking-wide mb-1">Address</p>
-              <p className="text-white text-sm leading-relaxed">Corporate and Business Square, 1st/2nd floor wazir arcade, Park Ave, Block C Gulberg Greens, Islamabad, Islamabad Capital Territory 44000.</p>
+              <p className="text-white text-sm leading-relaxed">Unit 3, 9 Bradstone Road, M8 8WA Manchester.</p>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@ export default function ContactSection() {
         <div className="rounded-2xl overflow-hidden h-56 border border-black/8">
           <iframe title="MeeramTech Location" width="100%" height="100%" className={styles.iframe}
             loading="lazy" referrerPolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0!2d73.0698!3d33.6582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbef7c0000001%3A0x1!2sGulberg+Greens%2C+Islamabad!5e0!3m2!1sen!2s!4v1" />
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.0!2d-2.2426!3d53.4975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c1b5b5b5b5%3A0x1!2s9+Bradstone+Road%2C+Manchester+M8+8WA!5e0!3m2!1sen!2suk!4v1" />
         </div>
       </div>
 
@@ -261,13 +261,13 @@ export default function ContactSection() {
           Contact Information
         </h2>
 
-        <a href="tel:0512745817" className={`absolute flex items-center gap-[0.781vw] ${styles.infoPhone}`}>
+        <a href="tel:+447417436858" className={`absolute flex items-center gap-[0.781vw] ${styles.infoPhone}`}>
           <svg className={styles.infoIcon} viewBox="0 0 24 24" fill="none">
             <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.58.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1C10.29 21 3 13.71 3 4.5c0-.55.45-1 1-1H7.5c.55 0 1 .45 1 1 0 1.25.2 2.46.57 3.58.11.35.03.74-.24 1.01L6.6 10.8z" fill="#000"/>
             <path d="M15.5 5.5a5 5 0 012.83 4.5" stroke="#000" strokeWidth="1.5" strokeLinecap="round"/>
             <path d="M17.5 2.5a9 9 0 014.5 7.5" stroke="#000" strokeWidth="1.5" strokeLinecap="round"/>
           </svg>
-          <span className={styles.infoText}>051-2745817</span>
+          <span className={styles.infoText}>+44 7417436858</span>
         </a>
 
         <a href="mailto:info@meeramtech.com" className={`absolute flex items-center gap-[0.781vw] ${styles.infoEmail}`}>
@@ -283,7 +283,7 @@ export default function ContactSection() {
             <path d="M15.5 2C10.25 2 6 6.25 6 11.5c0 8.25 9.5 17.5 9.5 17.5s9.5-9.25 9.5-17.5C25 6.25 20.75 2 15.5 2zm0 13a3.5 3.5 0 110-7 3.5 3.5 0 010 7z" fill="#000"/>
           </svg>
           <span className={styles.infoTextAddress}>
-            Corporate and Business Square, 1st/2nd floor wazir arcade, Park Ave, Block C Gulberg Greens, Islamabad, Islamabad Capital Territory 44000.
+            Unit 3, 9 Bradstone Road, M8 8WA Manchester.
           </span>
         </div>
 
@@ -298,7 +298,7 @@ export default function ContactSection() {
           className={styles.iframe}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.0!2d73.0698!3d33.6582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbef7c0000001%3A0x1!2sGulberg+Greens%2C+Islamabad!5e0!3m2!1sen!2s!4v1"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.0!2d-2.2426!3d53.4975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1c1b5b5b5b5%3A0x1!2s9+Bradstone+Road%2C+Manchester+M8+8WA!5e0!3m2!1sen!2suk!4v1"
         />
       </div>
 
