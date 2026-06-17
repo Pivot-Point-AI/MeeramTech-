@@ -70,6 +70,12 @@ const partners = [
   { name: "Huawie",    img: "/images/partners/huawei.png",    imgW: 32, imgH: 30, frame: 0 },
 ];
 
+const mobilePartners = [
+  { name: "Huawie",    img: "/images/partners/huawei.png",    imgW: 32, imgH: 30, frame: 0 },
+  { name: "Dell",      img: "/images/partners/dell.png",      imgW: 30, imgH: 30, frame: 1 },
+  { name: "Microsoft", img: "/images/partners/microsoft.png", imgW: 30, imgH: 30, frame: 2 },
+];
+
 export default function TestimonialsSection() {
   const [activePartner, setActivePartner] = useState(0);
 
@@ -142,18 +148,18 @@ export default function TestimonialsSection() {
         <div className="bg-[#F3F4F6] rounded-2xl px-5 py-6">
           <p className="text-[10px] uppercase tracking-[0.2em] text-black/40 mb-1">Trusted By</p>
           <h2 className="text-xl font-bold mb-5" style={{ color: "#000000" }}>Company Testimonials</h2>
-          <div className="flex flex-wrap gap-3">
-            {partners.map((p, i) => (
+          <div className="grid grid-cols-3 gap-3">
+            {mobilePartners.map((p, i) => (
               <button
                 key={i}
                 onClick={() => setActivePartner(i)}
-                className="flex items-center gap-2 px-4 py-2.5 rounded-xl transition-all border"
+                className="flex flex-col items-center justify-center gap-2 px-3 py-4 rounded-xl transition-all border"
                 style={{
                   background: activePartner === i ? "#000" : "#fff",
                   borderColor: activePartner === i ? "#000" : "#00000015",
                 }}
               >
-                <Image src={p.img} alt={p.name} width={24} height={24} className="object-contain" />
+                <Image src={p.img} alt={p.name} width={28} height={28} className="object-contain" />
                 <span className="text-xs font-medium" style={{ color: activePartner === i ? "#fff" : "#000" }}>{p.name}</span>
               </button>
             ))}
