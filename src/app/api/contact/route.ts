@@ -8,19 +8,19 @@ export async function POST(request: Request) {
   }
 
 const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT),
-    secure: process.env.SMTP_SECURE === "true",
+    host: "smtp.office365.com",
+    port: 587,
+    secure: false,
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: "info@meeramtech.com",
+      pass: "Permi$$ion@786",
     },
   });
 
   try {
     await transporter.sendMail({
-      from: `"MeeramTech Website" <${process.env.SMTP_USER}>`,
-      to: process.env.CONTACT_TO_EMAIL,
+      from: `"MeeramTech Website" <info@meeramtech.com>`,
+      to: "info@meeramtech.com",
       replyTo: email,
       subject: `New contact form message from ${name}`,
       text: `Name: ${name}\nPhone: ${phone || "-"}\nEmail: ${email}\n\nMessage:\n${message}`,

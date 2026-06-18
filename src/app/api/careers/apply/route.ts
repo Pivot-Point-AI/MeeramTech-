@@ -15,12 +15,12 @@ export async function POST(request: Request) {
   }
 
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: Number(process.env.SMTP_PORT),
-    secure: process.env.SMTP_SECURE === "true",
+    host: "smtp.office365.com",
+    port: 587,
+    secure: false,
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: "info@meeramtech.com",
+      pass: "Permi$$ion@786",
     },
   });
 
@@ -28,8 +28,8 @@ export async function POST(request: Request) {
     const resumeBuffer = Buffer.from(await resume.arrayBuffer());
 
     await transporter.sendMail({
-      from: `"MeeramTech Careers" <${process.env.SMTP_USER}>`,
-      to: process.env.CAREERS_TO_EMAIL || process.env.CONTACT_TO_EMAIL,
+      from: `"MeeramTech Careers" <info@meeramtech.com>`,
+      to: "info@meeramtech.com",
       replyTo: email,
       subject: `New job application${role ? ` — ${role}` : ""} from ${name}`,
       text: `Name: ${name}\nPhone: ${phone || "-"}\nEmail: ${email}\nRole: ${role || "-"}\n\nMessage:\n${message || "-"}`,
