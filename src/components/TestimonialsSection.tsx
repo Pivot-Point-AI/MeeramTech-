@@ -21,42 +21,42 @@ const cards = [
     avatar: "/images/testimonials/avatar9.png",
     col: 0, row: 0,
     textH: "63.158%",
-    text: "Working with Rohatech has been one of the best decisions for our business. Their team built a fully customized digital payments platform that not only met our security standards but also enhanced the speed and reliability of our services. Since launch, user engagement has increased dramatically and we're processing 3x more transactions with zero downtime.",
+    text: "Working with MeeramTech has been one of the best decisions for our business. Their team built a fully customized digital payments platform that not only met our security standards but also enhanced the speed and reliability of our services. Since launch, user engagement has increased dramatically and we're processing 3x more transactions with zero downtime.",
   },
   {
     name: "Sofia Herrera",
     avatar: "/images/testimonials/avatar10.png",
     col: 1, row: 0,
     textH: "63.158%",
-    text: "Rohatech transformed our legacy system into a modern, secure digital lending platform. The attention to detail and responsiveness from their developers ensured we launched on time — and with features our clients actually love. Transaction efficiency has improved by over 60%, and customer complaints have dropped significantly.",
+    text: "MeeramTech transformed our legacy system into a modern, secure digital lending platform. The attention to detail and responsiveness from their developers ensured we launched on time — and with features our clients actually love. Transaction efficiency has improved by over 60%, and customer complaints have dropped significantly.",
   },
   {
     name: "Liang Wei",
     avatar: "/images/testimonials/avatar11.png",
     col: 2, row: 0,
     textH: "56.140%",
-    text: "Before partnering with Rohatech, we struggled with scalability and frequent outages during peak hours. Their team redesigned our backend, optimized transaction flows, and implemented robust security protocols. The platform now runs smoothly even at high loads, and we've seen retention rates climb steadily.",
+    text: "Before partnering with MeeramTech, we struggled with scalability and frequent outages during peak hours. Their team redesigned our backend, optimized transaction flows, and implemented robust security protocols. The platform now runs smoothly even at high loads, and we've seen retention rates climb steadily.",
   },
   {
     name: "Amara Diallo",
     avatar: "/images/testimonials/avatar12.png",
     col: 0, row: 1,
     textH: "63.158%",
-    text: "Rohatech's technical expertise is unmatched. They developed a real-time payment gateway integration for our marketplace that has eliminated settlement delays and drastically improved user satisfaction. Their team communicated clearly at every step and delivered beyond expectations. Thanks to Rohatech, our merchants are happier and our business is growing faster than ever.",
+    text: "MeeramTech's technical expertise is unmatched. They developed a real-time payment gateway integration for our marketplace that has eliminated settlement delays and drastically improved user satisfaction. Their team communicated clearly at every step and delivered beyond expectations. Thanks to MeeramTech, our merchants are happier and our business is growing faster than ever.",
   },
   {
     name: "Mateus Costa",
     avatar: "/images/testimonials/avatar13.png",
     col: 1, row: 1,
     textH: "56.140%",
-    text: "When we needed a resilient digital wallet solution capable of handling millions of monthly transactions, Rohatech stepped in and delivered with excellence. The platform is secure, fast, and easy to scale. The project management was professional, deadlines were respected, and the outcome exceeded our performance targets.",
+    text: "When we needed a resilient digital wallet solution capable of handling millions of monthly transactions, MeeramTech stepped in and delivered with excellence. The platform is secure, fast, and easy to scale. The project management was professional, deadlines were respected, and the outcome exceeded our performance targets.",
   },
   {
     name: "Priya Nair",
     avatar: "/images/testimonials/avatar14.png",
     col: 2, row: 1,
     textH: "56.140%",
-    text: "Partnering with Rohatech completely changed the way we handle online banking. Their team built a secure, scalable platform that streamlined account management and payments, making transactions faster and more reliable for our customers. Since implementation, we've seen a 50% increase in digital adoption and fewer support tickets.",
+    text: "Partnering with MeeramTech completely changed the way we handle online banking. Their team built a secure, scalable platform that streamlined account management and payments, making transactions faster and more reliable for our customers. Since implementation, we've seen a 50% increase in digital adoption and fewer support tickets.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function TestimonialsSection() {
           What Our Clients Say
         </h1>
         <p className="text-white text-sm leading-relaxed max-w-[90%]">
-          Real results from real businesses — powered by RohaTech solutions.
+          Real results from real businesses — powered by MeeramTech solutions.
         </p>
 
         {/* Stats row */}
@@ -177,7 +177,7 @@ export default function TestimonialsSection() {
       </h1>
 
       <p className={`absolute text-black ${styles.featuredQuote}`}>
-        Rohatech delivered end-to-end technology solutions that strengthened our infrastructure and positioned us for long-term growth.
+        MeeramTech delivered end-to-end technology solutions that strengthened our infrastructure and positioned us for long-term growth.
       </p>
 
       {/* Testimonial cards — left/top from data, kept inline */}
