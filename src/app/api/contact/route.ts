@@ -20,7 +20,7 @@ const transporter = nodemailer.createTransport({
   try {
     await transporter.sendMail({
       from: `"MeeramTech Website" <info@meeramtech.com>`,
-      to: "info@meeramtech.com",
+      to: "info@meeramtech.com, info@meeramtech.co.uk",
       replyTo: email,
       subject: `New contact form message from ${name}`,
       text: `Name: ${name}\nPhone: ${phone || "-"}\nEmail: ${email}\n\nMessage:\n${message}`,

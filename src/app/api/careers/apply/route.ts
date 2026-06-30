@@ -29,7 +29,7 @@ export async function POST(request: Request) {
 
     await transporter.sendMail({
       from: `"MeeramTech Careers" <info@meeramtech.com>`,
-      to: "info@meeramtech.com",
+      to: "info@meeramtech.com, info@meeramtech.co.uk",
       replyTo: email,
       subject: `New job application${role ? ` — ${role}` : ""} from ${name}`,
       text: `Name: ${name}\nPhone: ${phone || "-"}\nEmail: ${email}\nRole: ${role || "-"}\n\nMessage:\n${message || "-"}`,
